@@ -1,0 +1,85 @@
+@font-face {
+font-family: 'Mouser Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Mouser Regular'), url('Mouser.woff') format('woff');
+}
+
+.moolya-logo{
+	margin-left: 4rem;
+    cursor: pointer;
+    max-width: 7rem;
+}
+.main-topbar{
+	padding-right: 4rem;
+}
+.topbar-main .navbar-nav .nav-item a{
+	color: #5b0eae;
+}
+.topbar-main .navbar-nav .nav-item.active {
+	color: #5b0eae;
+	border-bottom:1px solid #5b0eae;
+}
+.schedule-meeting-div{
+	margin: 2rem 4rem 2rem 5rem;
+	padding-bottom: 2rem;
+}
+.the-power-of-tech{
+	color: #a8a8a8;
+	font-family: Poppins;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 4.4px;
+}
+.main-heading{
+	font-family: "Mouser Regular" !important;
+	font-size: 4.5rem ;
+}
+.schedule-meeting-discription-div{
+	margin-top: 5rem;
+	padding-left: 3rem;
+}
+.schedule-meeting-discription{
+	font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    padding-right: 5rem;
+    line-height: 36px;
+    letter-spacing: 0.88px;
+}
+.schedule-btn{
+	color: #ffffff;
+	margin-top: 1.3rem;
+    font-family: "Poppins";
+    font-size: 16px;
+    padding: 0.8rem 1.2rem;
+    font-weight: 500;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 7px;
+    background-image: linear-gradient(76deg, #8d2ce2 0%, #4c02e0 100%);
+}
+.schedule-meeting-div img{
+    float: right;
+    padding-right: 2rem;
+}
+.schedule-meeting-img-div{
+	position: relative;
+}
+@media (max-width: 1536px) {
+	.main-heading{
+		font-size: 3.5rem;
+	}
+	.schedule-meeting-discription-div {
+	    margin-top: 5rem;
+	    padding-left: 4rem;
+	    padding-right: 1rem;
+	}
+	.schedule-meeting-discription {
+	    font-size: 16px;
+	    font-weight: 300;
+	    line-height: 30px;
+	    letter-spacing: 0.88px;
+	}
+}
