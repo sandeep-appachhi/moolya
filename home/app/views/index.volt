@@ -9,11 +9,13 @@
         <link rel="stylesheet" href="{{ publicDir }}css/bootstrap/bootstrap.min.css">
         <link rel="stylesheet" href="{{ publicDir }}css/custom.css">
         <link rel="stylesheet" href="{{ publicDir }}fonts/poppins.css">
+        <link rel="stylesheet" href="{{ publicDir }}js/slick/slick.css">
 
         <script type="text/javascript" src="{{ publicDir }}js/custom.js"></script>
         <script type="text/javascript" src="{{ publicDir }}js/material.min.js"></script>
         <script src="{{ publicDir }}js/jquery/jquery.min.js"></script>
         <script src="{{ publicDir }}js/bootstrap/bootstrap.min.js"></script>
+        <script src="{{ publicDir }}js/slick/slick.min.js"></script>
 
 	<!-- Meta -->
 	{{ getTitle() }}

@@ -1,10 +1,15 @@
 @font-face {
-font-family: 'Mouser Regular';
+font-family: 'Mouser';
 font-style: normal;
 font-weight: normal;
 src: local('Mouser Regular'), url('Mouser.woff') format('woff');
 }
-
+body,button{
+	font-family: "Poppins";
+}
+button{
+	cursor: pointer;
+}
 .moolya-logo{
 	margin-left: 4rem;
     cursor: pointer;
@@ -20,8 +25,8 @@ src: local('Mouser Regular'), url('Mouser.woff') format('woff');
 	color: #5b0eae;
 	border-bottom:1px solid #5b0eae;
 }
-.schedule-meeting-div{
-	margin: 2rem 4rem 2rem 5rem;
+.schedule-meeting-div,
+.passion-at-work-div{
 	padding-bottom: 2rem;
 }
 .the-power-of-tech{
@@ -33,12 +38,12 @@ src: local('Mouser Regular'), url('Mouser.woff') format('woff');
 	letter-spacing: 4.4px;
 }
 .main-heading{
-	font-family: "Mouser Regular" !important;
+	font-family: "Mouser" !important;
 	font-size: 4.5rem ;
 }
 .schedule-meeting-discription-div{
 	margin-top: 5rem;
-	padding-left: 3rem;
+	padding-left: 7rem;
 }
 .schedule-meeting-discription{
 	font-family: Poppins;
@@ -53,6 +58,7 @@ src: local('Mouser Regular'), url('Mouser.woff') format('woff');
 	margin-top: 1.3rem;
     font-family: "Poppins";
     font-size: 16px;
+    box-shadow: 1px 0px 6px 0px #9543dcf0;
     padding: 0.8rem 1.2rem;
     font-weight: 500;
     border: none;
@@ -60,12 +66,165 @@ src: local('Mouser Regular'), url('Mouser.woff') format('woff');
     border-radius: 7px;
     background-image: linear-gradient(76deg, #8d2ce2 0%, #4c02e0 100%);
 }
-.schedule-meeting-div img{
+.schedule-meeting-div img,
+.passion-at-work-img img{
     float: right;
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
-.schedule-meeting-img-div{
+
+.schedule-meeting-img-div,
+.passion-at-work-img{
 	position: relative;
+}
+.customer-logo-div{
+	text-align: center;
+	margin-top: 7rem;
+	margin-bottom: 3rem;
+}
+.customer-logo-div .slick-arrow{
+	display: none !important;
+}
+.customer-logo-div .slick-slide img {
+    min-height: 2rem;
+    max-height: 3rem;
+}
+.cl-headding{
+	margin-bottom: 2rem;
+	font-family: Poppins;
+	font-size: 23px;
+	color: #a5a5a5;
+	font-weight: 400;
+	letter-spacing: 0.72px;
+}
+#customer-logo-slick{
+	padding-left: 4rem;
+}
+.what-we-do{
+	position: relative;
+	margin-top: 5rem;
+}
+.what-we-do img,
+.believers-customers-img{
+	position: absolute;
+    left: 0;
+    max-width: 50%;
+    min-width: 41%;
+    max-height: 42rem;
+}
+.what-we-do .headding{
+	padding-left: 9%;
+    padding-top: 1%;
+}
+.what-we-do .headding h5,
+.platform-types-div .headding h5,
+.casestudy-div .headding h5,
+.passion-at-work-div .headding h5,
+.believers-disc .headding h5{
+	text-transform: uppercase;
+	font-weight:600;
+	color: #898989;
+}
+.what-we-do .headding h1, .casestudy-div .headding h1,
+.platform-types-div .headding h1,
+.passion-at-work-div .headding h1,
+.believers-disc .headding h1{
+	font-family: mouser;
+	font-size: 40px;
+	padding: 0rem 1rem 0 0;
+	letter-spacing: 4.2px;
+}
+.what-we-do .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: unset;
+	opacity: 1;
+}
+.what-we-do  a{
+	color: #ffffff;
+	opacity: 0.5;
+	padding-left: 8rem;
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.what-we-do-content .row{
+	margin-top: 10rem;
+	margin-right: 0px;
+}
+.explore-solution-btn{
+    max-width: max-content;
+    padding: 12px 20px;
+    margin: 2rem 8rem;
+    color: #5206e0;
+    border-radius: 8px;
+    border: 0px;
+}
+.what-we-do-content .tab-content h5{
+	font-weight: 600;
+}
+.what-we-do-content .tab-content p,
+.platform-types-div p,
+.casestudy-disc p,
+.passion-at-work-div .headding p,
+.believers-disc .headding p{
+	color: #818080;
+	letter-spacing: 1px;
+}
+.what-we-do-nav-content{
+	padding: 5% 0 0 5%;
+}
+.platform-types-div{
+	background-image: url("../img/platforms-bg.png");
+	padding-top: 11rem;
+	background-size: 100% 100%;
+}
+.platform-types-div p{
+	letter-spacing: 0.66px;
+	line-height: 42px;
+}
+.platform-types-div .row,
+.believers-div .row{
+	margin-right: 0px;
+}
+.platform-type-btns input{
+	cursor: pointer;
+	min-width: 10rem;
+	min-height: 10rem;
+	border-radius: 10px;
+	border:0px;
+	box-shadow: 0px -1px 0px 1px #a400ed12;
+}
+.platform-android{
+	background-image: url("../img/android-sq.png");
+	background-size:100% 100%;
+	margin-bottom: 3rem;
+}
+.platform-ios{
+	background-image: url("../img/ios-sq.png");
+	background-size:100% 100%;
+}
+.platform-web{
+	background-image: url("../img/web-sq.png");
+	background-size:100% 100%;
+}
+.platform-api{
+	background-image: url("../img/api-sq.png");
+	background-size:100% 100%;
+}
+.platform-type-btns{
+	text-align: center;
+	margin: 7rem 0rem
+}
+.platform-type-1{
+	padding: 0;
+	text-align: right;
+	padding-top: 4rem;
+}
+.platform-type-3{
+	padding: 0;
+	text-align: left;
+	padding-top: 4rem;
+}
+.casestudy-container{
+	margin: 3rem 0;
 }
 @media (max-width: 1536px) {
 	.main-heading{
@@ -81,5 +240,68 @@ src: local('Mouser Regular'), url('Mouser.woff') format('woff');
 	    font-weight: 300;
 	    line-height: 30px;
 	    letter-spacing: 0.88px;
+	}
+	.platform-type-btns input{
+		min-width: 8rem;
+		min-height: 9rem;
+	}
+	
+}
+.casestudy-logo{
+	text-align: center;
+}
+.view-casestudy-div button{
+	background-image: linear-gradient(76deg, #8d2ce2 0%, #4c02e0 100%);
+	border-radius: 10px;
+	color: white;
+	font-size: 16px;
+	padding:0.8rem 1.2rem;
+	font-weight: 400;
+	border:0px;
+	box-shadow: -1px 0px 17px 0px #8d2ce2;
+	margin-bottom: 2rem;
+}
+.casestudy-div .slick-arrow{
+	position: absolute;
+	bottom: 0;
+	min-height: 2rem;
+    min-width: 2rem;
+    background-size: 100% 100%;
+    border: 0;
+}
+.casestudy-div .slick-next{
+	left: 5rem;
+	background-image: url("../img/arrow-right.png");
+}
+.casestudy-div .slick-prev{
+	left: 2rem;
+	background-image: url("../img/arrow-left.png");	
+}
+.casestudy-div{
+	padding-bottom: 2rem;
+}
+.casestudy-div .slick-slide{
+	padding-left: 1rem;
+}
+.passion-at-work-div .row,
+.schedule-meeting-div .row{
+	align-items: center;
+	margin-right: 0px
+}
+.passion-at-work-disc{
+	padding-left: 6rem;
+}
+@media (max-width: 1065px){
+	.main-heading{
+		font-size: 2rem;
+	}
+	.the-power-of-tech{
+		font-size: 18px;
+	}
+	.schedule-meeting-discription{
+		padding-right: 0px;
+	}
+	.schedule-btn{
+		margin-top: 0px;
 	}
 }
