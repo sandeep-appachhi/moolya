@@ -116,18 +116,24 @@ button{
     padding-top: 1%;
 }
 .what-we-do .headding h5,
+.customer-stories-container .headding h5,
 .platform-types-div .headding h5,
 .casestudy-div .headding h5,
 .passion-at-work-div .headding h5,
-.believers-disc .headding h5{
+.believers-disc .headding h5,
+.moolya-broadcast .headding h5{
 	text-transform: uppercase;
 	font-weight:600;
 	color: #898989;
 }
 .what-we-do .headding h1, .casestudy-div .headding h1,
+.customer-stories-container .headding h1,
 .platform-types-div .headding h1,
 .passion-at-work-div .headding h1,
-.believers-disc .headding h1{
+.believers-disc .headding h1,
+.moolya-broadcast .headding h1,
+.awards-recognisation-div h1,
+.email-div .headding h1{
 	font-family: mouser;
 	font-size: 40px;
 	padding: 0rem 1rem 0 0;
@@ -164,6 +170,7 @@ button{
 .platform-types-div p,
 .casestudy-disc p,
 .passion-at-work-div .headding p,
+.customer-stories-container .headding p,
 .believers-disc .headding p{
 	color: #818080;
 	letter-spacing: 1px;
@@ -303,5 +310,275 @@ button{
 	}
 	.schedule-btn{
 		margin-top: 0px;
+	}
+}
+.believers-div{
+	margin-top: 3rem;
+	position: relative;
+}
+.believers-logo{
+	text-align: center;
+	margin-top: 12rem;
+}
+.align-left{
+	text-align: left;
+}
+.custome-logos .img-div{
+	min-height: 5rem;
+}
+.believers-disc .headding{
+	margin-top: 5rem;
+	padding-left: 2rem;
+}
+.believers-disc .headding p{
+	padding-right: 6rem;
+}
+.customer-stories-div{
+	background-image: url('../img/customer-stories-bg.png');
+	margin-top: 10rem;
+	position: relative;
+	min-height: 30rem;
+	background-size: 100% 100%;
+	margin-bottom: 5rem;
+}
+.schedule-demo-div{
+	min-height: 40rem;
+	margin-bottom: 5rem;
+	padding-right: 15px;
+}
+.customer-stories-container{
+	align-items: center;
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+.customer__story-div{
+	align-items: center;
+	margin: 1rem 4rem;
+	border-radius: 10px;
+	background-color: #7d23e0;
+}
+.customer-image{
+	text-align: center;
+}
+.customer__story-lists::-webkit-scrollbar{
+	width: 0px;
+}
+.customer-image img{
+	display: inline !important;
+}
+.customer__story-div .row{
+	align-items: center;
+	padding: 10px;
+	color: #f3eded;
+}
+.customer__story-lists .slick-dots li{
+	list-style: none;
+	display: block;
+}
+.customer__story-lists .slick-dots{
+	position: absolute;
+	top: 35%;
+	left: 0;
+}
+.customer__story-lists .slick-dots li button{
+	font-size: 0;
+    border: 0px;
+    border-radius: 50%;
+    min-height: 0.7rem;
+}
+.slick-active button{
+	background-color: #5608e0;
+}
+.customer__story-lists .slick-prev,.customer__story-lists .slick-next  {
+	display: none !important;
+}
+.customer-stories-container .headding {
+	text-align:right;
+}
+.customer-stories-container .slick-list{
+	min-height: 28rem;
+}
+.customer-stories-container .slick-slide{
+	opacity: 0.5;
+}
+.customer-stories-container .slick-active{
+	opacity: 1;
+}
+/*.schedule-demo-content {
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.schedule-demo-content:before{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-image: url(../img/schedule-demo-bg1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: -1;
+}*/
+.schedule-demo-content img {
+	position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+    right: 0;
+    background-size: contain;
+}
+.schedule-demo-content .headding h5,
+.schedule-demo-content .headding  p,
+.schedule-demo-content .headding  a{
+	color: #debdff;
+}
+.schedule-demo-content .headding  h1{
+	font-family: Mouser;
+	color: #fff;
+}
+.schedule-demo-content{
+	display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+@media (min-width: 1200px) and (max-width: 1600px){
+	.schedule-demo-content .offset-xl-5 {
+		margin-left: 21.666667%;
+	}	
+}
+.moolya-broadcast-container{
+	display: flex;
+	margin-bottom: 3rem;
+	align-items: center;
+}
+
+@media (min-width: 1200px){
+	.moolya-broadcast.container {
+	    max-width: 1504px;
+	}
+}
+.moolya-broadcast .headding {
+	padding-left: 4rem;
+    margin-bottom: 2rem;
+}
+.broadcast__view-btn{
+	background-image: linear-gradient(76deg, #8d2ce2 0%, #4c02e0 100%);
+	border-radius: 10px;
+	border:0px;
+	box-shadow: 1px 0px 6px 0px #9543dcf0;
+	padding: 0.8rem 3rem;
+    color: white;
+}
+.broadcast__view-more,
+.awards-recognisation-div{
+	text-align: center;
+}
+.moolya-broadcast{
+	margin-bottom: 4rem;
+}
+.moolya-broadcast-container iframe{
+	border-radius: 10px;
+    min-height: 20rem;
+}
+.moolya-broadcast-container .col-4{
+	padding: 1rem;
+    min-height: 16rem;
+}
+.left-text{
+	text-align: left;
+}
+.center-text{
+	text-align: center;
+}
+.right-text{
+	text-align: right;
+}
+.moolya-broadcast .card-group .card{
+	margin-right: 2rem;
+}  
+
+@media (max-width: 1200px){
+	.moolya-broadcast .card-group .card{
+		margin-right: 2rem;
+	}  
+	.moolya-broadcast-container iframe{
+		 min-height: 15rem;
+	}
+	.awards-logos img{
+		width: 20%;
+	}
+}
+@media (max-width: 992px){
+	.moolya-broadcast-container iframe{
+		 min-height: 12rem;
+	}
+}
+.email-div .headding p,
+.email-div .headding h1{
+	color: white;
+}
+.email-div{
+    margin: 5% 11%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    display: flex;
+    padding-left: 4%;
+    background-image: linear-gradient(-86deg, #8d2ce2 0%, #6a02e0 100%), linear-gradient(51deg, #851be2 0%, #7f2bd4 100%);
+}
+.email-go-btn{
+	background-color: white;
+	color: #5004e0;
+	border: 0px;
+    padding: 8px 16px;
+	border-radius: 0 10px 10px 0;
+}
+.email-field{
+	display: flex;
+	align-items: center;
+}
+.email-div input{
+	padding-left: 1rem;
+	font-size: 24px;
+	padding-left: 1rem;
+	width: auto;
+    min-width: 30%;
+    background: transparent;
+    opacity: 0.5;
+    border: 1px solid #dedcdc;
+}
+.email-div input:hover{
+	opacity: 1;
+}
+.footer-content{
+	display: flex;
+	margin-bottom: 5rem;
+}
+.footer__div-1,
+.footer__div-2,
+.home-footer{
+	display: flex;
+	padding-left: 5rem;
+}
+.footer-content a{
+	display: block;
+	color: #808080;
+}
+.footer__div-1 p{
+	color: #808080;
+}
+.footer-content h4{
+	font-weight: 400;
+	font-family: Mouser;
+}
+.home-footer p{
+	color: #808080;
+}
+@media (max-width: 1300px){
+	.email-div{
+		margin: 5% 4%;
+		padding-left: 1%;
 	}
 }

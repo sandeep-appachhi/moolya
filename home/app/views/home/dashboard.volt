@@ -96,6 +96,42 @@
 		<div class=" believers-customers-bg">
 			<img class="believers-customers-img img-fluid" src="{{publicDir}}img/believers.png">
 		</div>
+		<div class="col-md-6 col-sm-12 col-xl-6  believers-logo">
+			<div class="custome-logos ">
+				<div class="row">
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/myntra-180px.png">
+					</div>
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/curefit-180px.png">					
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/hotstar-180px.png">
+					</div>
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/flipkart-180px.png">
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/phonepe-180px.png">
+					</div>
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/ndtv-180px.png">
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/medidata-180px.png">
+					</div>
+					<div class="col-xl-4 col-sm-6 img-div">
+						<img src="{{publicDir}}img/docdoc-180px.png">
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="col-md-6 col-sm-12 col-xl-6  believers-disc">
 			<div class="headding">
 				<h5>BELIEVERS</h5>
@@ -104,6 +140,85 @@
 			</div>
 		</div>
 	</div>
+</div>
+{% include 'home/customerStories.volt'%}
+{% include 'home/scheduleMeeting.volt'%}
+<div class="moolya-broadcast container">
+	<div class="headding">
+		<h5>MOOLYA BROADCAST</h5>
+		<h1>We swear, we are always up to something epic</h1>
+	</div>
+	<div class="card-group  moolya-broadcast-container">
+		<div class="card right-text">
+			<iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+		</div>
+		<div class="card center-text">
+			<iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+		</div>
+		<div class="card left-text">
+			<iframe  src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+		</div>
+	</div>
+	<div class="broadcast__view-more">
+		<input type="button" name="ViewMore" class="broadcast__view-btn" value="VIEW MORE">
+	</div>
+</div>
+<div class="awards-recognisation-div ">
+	<h1>Awards and Recoginitions</h1>
+	<div class="awards-logos ">
+		<img src="{{publicDir}}/img/awards/capterra.png">
+		<img src="{{publicDir}}/img/awards/asia.png">
+		<img src="{{publicDir}}/img/awards/inc.png">
+		<img src="{{publicDir}}/img/awards/yourstory.png">
+	</div>
+</div>
+<div class="email-div">
+	<div class="col-5 headding">
+		<h1>Wait! before you go...</h1>
+		<p>Be clued in to the latest happening at Moolya</p>
+	</div>
+	<div class="col-7 email-field">
+		<input placeholder="Your email address" type="email" name="email">
+		<button class="email-go-btn">GO</button>
+	</div>
+</div>
+<div class="container-fluid footer-content">
+	<div class="col-6 footer__div-1">
+		<div class="col-8">
+			<h4>Moolya Software Testing</h4>
+			<p>Work life balance is to those who work. To us it is the fun balance. One type of fun versus the other. </p>
+		</div>
+		<div class="col-4">
+			<h4>Company</h4>
+			<a href="">Solutions</a>
+			<a href="">Learning</a>
+			<a href="">Career</a>
+		</div>
+	</div>
+	<div class="col-6 footer__div-2">
+		<div class="col-6">
+			<h4>Products</h4>
+			<a href="">Appachhi</a>
+			<a href="">Bugasura</a>
+			<a href="">Moo Store</a>
+		</div>
+		<div class="col-6">
+			<h4>Further Information</h4>
+			<a href="">FAQ</a>
+			<a href="">Privacy Policy</a>
+			<a href="">Terms and Conditions</a>
+		</div>
+	</div>
+</div>
+<div class="home-footer">
+	<div class="col-8">
+		<p>© 2019 Moolya Software Testing Pvt. Ltd. | All Rights Reserved</p>
+	</div>
+	<div class="col-4">
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-facebook-f"></i>
+		<i class="fab fa-facebook-f"></i>
+	</div>	
 </div>
 <script type="text/javascript">
 	$(document).ready(function(){

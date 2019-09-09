@@ -10,13 +10,13 @@
         <link rel="stylesheet" href="<?= $publicDir ?>css/custom.css">
         <link rel="stylesheet" href="<?= $publicDir ?>fonts/poppins.css">
         <link rel="stylesheet" href="<?= $publicDir ?>js/slick/slick.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <script type="text/javascript" src="<?= $publicDir ?>js/custom.js"></script>
         <script type="text/javascript" src="<?= $publicDir ?>js/material.min.js"></script>
         <script src="<?= $publicDir ?>js/jquery/jquery.min.js"></script>
         <script src="<?= $publicDir ?>js/bootstrap/bootstrap.min.js"></script>
         <script src="<?= $publicDir ?>js/slick/slick.min.js"></script>
-
 	<!-- Meta -->
 	<?= $this->tag->gettitle() ?>
 </head>
